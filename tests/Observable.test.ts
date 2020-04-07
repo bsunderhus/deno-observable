@@ -1,9 +1,6 @@
-import { Observable } from "./Observable.ts";
-import {
-  assertEquals,
-  assert
-} from "https://deno.land/std/testing/asserts.ts";
-import { isSubscription } from "./utils.ts";
+import { assertEquals, assert } from "https://deno.land/std/testing/asserts.ts";
+import { Observable } from "../Observable.ts";
+import { isSubscription } from "../utils.ts";
 
 function expectFullObserver(val: any) {
   assertEquals(typeof val, "object");

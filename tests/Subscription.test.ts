@@ -10,8 +10,8 @@ import {
   Subscription,
   SubscriptionLike,
   normalizeCleanUp
-} from "./Subscription.ts";
-import { assertIsCleanUp } from "./utils.ts";
+} from "../Subscription.ts";
+import { assertIsCleanUp } from "../utils.ts";
 
 Deno.test(`
 Subscription:
