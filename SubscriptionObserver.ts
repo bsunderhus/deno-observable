@@ -1,6 +1,6 @@
 import { Observer } from "./Observer.ts";
 import { Subscription } from "./Subscription.ts";
-import { assertIsSubscription, assertIsObserver } from "./utils.ts";
+import { assertIsSubscription } from "./utils.ts";
 /**
  * A SubscriptionObserver is a normalized Observer which wraps the
  * observer object supplied to subscribe.
